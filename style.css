@@ -1,0 +1,41 @@
+#{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family:"Gabarito", sans-serif;
+}
+
+.navbar{
+  padding: 10px;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+
+.navbar_s1{
+  color: blueviolet;
+  
+}
+.navbar_s2{
+  padding: 10px;
+  border: solid black 1px;
+  border-radius: 30px;
+  width: 60%;
+  display: flex;
+  gap: 10px;
+}
+.navbar_s2 input{
+  width: 100%;
+  border: none; 
+  
+  
+}
+.navbar_s2 input:focus{
+  outline: none;
+}
+.navbar_s3{
+  display: flex;
+  gap: 10px;
+}
